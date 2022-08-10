@@ -77,6 +77,10 @@
         #num {
             color: gray;
         }
+
+        .redto {
+            color: red;
+        }
     </style>
     <link rel="shortcut icon" href="./cwm.png" type="image/x-icon">
     <script src="./jav.js"></script>
@@ -85,26 +89,27 @@
     <header>
         <span class="text"> <img src="cwm.png" class="h-40"> Code with Marley Dashboard</span>
     </header>
-    <main>
+    <main> 
+        <div class="red">
+            <h1 class="text" id="n">Hi, <span id="name">Mac Partner<span id="num">#6305</span></span></h1>
+            <h1 class="text">XP: <span id="points">170 XP Points</span></h1>
+            <h1 class="text">LV: <span id="level">Level 1</span></h1>
+        </div>
+        <br>
         <div class="progressBarArea">
-            <a href="./u/Yaxin7698.html">
-                <div class="darkgrey box w-300">
-                    <h2 class="padded">YAXIN</h2>
-                    <p class="padded">#7698</p>
-                </div>
-            </a>
-            <a href="./u/Maxim2201.html">
-                <div class="darkgrey box w-300">
-                    <h2 class="padded">MAXIM</h2>
-                    <p class="padded">#2201</p>
-                </div>
-            </a>
-            <a href="./u/MacPartner6305.html">
-                <div class="darkgrey box w-300">
-                    <h2 class="padded">MAC PARTNER</h2>
-                    <p class="padded">#6305</p>
-                </div>
-            </a>
+            <div class="darkgrey box w-300">
+                <h2 class="padded">SQL</h2>
+                <progress class="marginated" value="0" max="100"></progress>
+            </div>
+            <div class="darkgrey box w-300">
+                <h2 class="padded">EXCEL</h2>
+                <progress class="marginated" value="13" max="100"></progress>
+            </div>
+        </div>
+        <br>
+        <div class="padded darkgrey box">
+            <h1 class="text">Transaction History: <br></h1>
+            <h1 class="redto">ERROR, NO TRANSACTION HISTORY</h1>
         </div>
     </main>
 </body>

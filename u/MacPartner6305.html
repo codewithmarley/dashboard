@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Code with Marley Dashboard</title>
+    <style>
+        body {
+            background-color: rgb(143, 143, 251);
+            margin: 0;
+        }
+        header {
+            height: 200;
+            background-color: black;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .text {
+            padding-left: 20px;
+        }
+
+        .padded {
+            padding-left: 20px;
+        }
+
+        .marginated {
+            margin-left: 20px;
+        }
+
+        .lightpad {
+            padding-left: 10px;
+        }
+
+        #coins {
+            color: red;
+        }
+
+        .box {
+            border: 3px;
+            border-color: black;
+            border-radius: 20px;
+        }
+
+        .grey {
+            background-color: gray;
+            color: white;
+            font-size: 1rem;
+        }
+
+        .darkgrey {
+            background-color: darkgray;
+            color: white;
+            font-size: 1rem;
+        }
+        
+        .w-300 {
+            width: 300px !important;
+        }
+
+        .h-40 {
+            height: 40px !important;
+        }
+
+        .red {
+            background-color: lightcoral;
+            color: white;
+            font-size: 1rem;
+        }
+
+        .progressBarArea {
+            background: white;
+        }
+
+        .pb {
+            width: 100px;
+        }
+
+        #num {
+            color: gray;
+        }
+
+        .redto {
+            color: red;
+        }
+    </style>
+    <link rel="shortcut icon" href="./cwm.png" type="image/x-icon">
+    <script src="./jav.js"></script>
+</head>
+<body>
+    <header>
+        <span class="text"> <img src="cwm.png" class="h-40"> Code with Marley Dashboard</span>
+    </header>
+    <main> 
+        <div class="red">
+            <h1 class="text" id="n">Hi, <span id="name">Mac Partner<span id="num">#6305</span></span></h1>
+            <h1 class="text">XP: <span id="points">170 XP Points</span></h1>
+            <h1 class="text">LV: <span id="level">Level 1</span></h1>
+        </div>
+        <br>
+        <div class="progressBarArea">
+            <div class="darkgrey box w-300">
+                <h2 class="padded">SQL</h2>
+                <progress class="marginated" value="0" max="100"></progress>
+            </div>
+            <div class="darkgrey box w-300">
+                <h2 class="padded">EXCEL</h2>
+                <progress class="marginated" value="13" max="100"></progress>
+            </div>
+        </div>
+        <br>
+        <div class="padded darkgrey box">
+            <h1 class="text">Transaction History: <br></h1>
+            <h1 class="redto">ERROR, NO TRANSACTION HISTORY</h1>
+        </div>
+    </main>
+</body>
+</html>

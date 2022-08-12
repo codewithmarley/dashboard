@@ -77,33 +77,58 @@
         #num {
             color: gray;
         }
+
+        .a {
+            color: inherit;
+        }
+
+        box.red {
+            background-color: lightcoral;
+            color: white;
+            font-size: 1rem;
+        }
+
+        button.sub {
+            color: #000;
+            background-color: red;
+            border-radius: 50px;
+            float: right;
+            margin-bottom: 40px;
+        }
+
+        button.tip {
+            color: #000;
+            background-color: red;
+            border-radius: 50px;
+            float: right;
+            margin-bottom: 40px;
+        }
     </style>
     <link rel="shortcut icon" href="./cwm.png" type="image/x-icon">
-    <script src="./jav.js"></script>
 </head>
 <body>
     <header>
-        <span class="text"> <img src="cwm.png" class="h-40"> Code with Marley Dashboard</span>
+        <a href="file:///Users/Movies/Desktop/devProjects/Blockchain/MAXI_DEV/CWM/DASH/index.html" class="a"><span class="text"> <img src="cwm.png" class="h-40"> Code with Marley Dashboard</span></a>
     </header>
     <main> 
         <div class="red">
             <h1 class="text" id="n">Hi, <span id="name">Maxim<span id="num">#2201</span></span></h1>
-            <h1 class="text">XP: <span id="points">630 XP Points</span></h1>
-            <h1 class="text">LV: <span id="level">Level 2</span></h1>
+            <h1 class="text">XP: <span id="points">1030 XP Points</span></h1>
+            <h1 class="text">LV: <span id="level">Level 3</span></h1>
         </div>
         <br>
         <div class="progressBarArea">
             <div class="darkgrey box w-300">
                 <h2 class="padded">HTML</h2>
-                <progress class="marginated" value="3" max="10"></progress>
+                <progress class="marginated" value="39" max="100"></progress>
             </div>
             <div class="darkgrey box w-300">
                 <h2 class="padded">CSS</h2>
-                <progress class="marginated" value="1" max="10"></progress>
+                <progress class="marginated" value="13" max="100"></progress>
             </div>
             <div class="darkgrey box w-300">
                 <h2 class="padded">JAVASCRIPT</h2>
-                <progress class="marginated" value="0" max="10"></progress>
+                <progress class="marginated" value="0" max="100"></progress>
             </div>
         </div>
         <br>
@@ -116,6 +141,14 @@
             <div class="lightpad grey box w-300">
                 <h1><span id="nameT1">Got Acivement: "Pass 500!"</span></h1>
                 <p id="dateT1">August 3, 2022</p>
+            </div>
+            <div class="lightpad grey box w-300">
+                <h1><span id="nameT1">Got Acivement: "Pass 1000!"</span></h1>
+                <p id="dateT1">August 12, 2022</p>
+            </div>
+            <div class="lightpad grey box w-300">
+                <h1><span id="nameT1">Leveled up pass LV3</span></h1>
+                <p id="dateT1">August 12, 2022</p>
             </div>
         </div>
     </main>
